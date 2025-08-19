@@ -1,3 +1,5 @@
+# https://leetcode.com/problems/diagonal-traverse-ii/
+
 class Solution:
     def findDiagonalOrder(self, nums: List[List[int]]) -> List[int]:
         n_cols = max(len(i) for i in nums)
